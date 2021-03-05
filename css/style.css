@@ -1,0 +1,176 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+.text {
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0 auto;
+}
+.heading-2 {
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+.page-header {
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 50px;
+    background-color: #445161;
+    box-sizing: border-box;
+    color: #fff;
+}
+.page-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+  /*   height: 10px;
+    background-color: #fff; */
+}
+.page-header-wrp {
+    float: left;
+    /* border: 1px solid #fff; */
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3)
+}
+.page-header-title {
+    margin: 0 0 30px 0;
+    font-size: 60px;
+    font-weight: 400;
+}
+.page-header-list {
+    margin: 0;
+    padding: 0;
+}
+.page-header-list-item {
+    padding: 0 0 10px 20px;
+    list-style-type: none;
+    position: relative;
+}
+.page-header-list-item:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid #fff; */
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_tick_icon.svg/1200px-Flat_tick_icon.svg.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page-header-pic {
+    display: block;
+    width: 470px;
+    min-height: 150px;
+    background-color: #fff;
+    float: right;
+}
+
+.page-content-article-about_your_product {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content-article-about_your_product-title {
+    margin: 0 0 20px 0;
+}
+/* .page-content-article-about_your_product-section {
+} */
+.page-content-article-about_your_product-section-text {
+    width: 650px;
+    margin-bottom: 20px;
+}
+.page-content-article-img {
+    background-color: #445161;
+    display: block;
+    width: 430px;
+}
+
+
+.page-content-section-dignity_and_pluses {
+    padding: 50px;
+}
+.page-content-section-dignity_and_pluses-title {
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.page-content-section-dignity_and_pluses-desc-left-right {
+    display: flex;
+    justify-content: center;
+
+}
+.page-content-section-dignity_and_pluses-details {
+    margin-bottom: 35px;
+}
+details summary {
+    width: 526px;
+}
+/* Убираем стандартный маркер Chrome */
+details summary::-webkit-details-marker {
+    display: none
+  }
+  /* Убираем стандартный маркер Firefox */
+  details > summary {
+    list-style: none;
+  }
+  /* Добавляем собственный маркер для закрытого состояния */
+  details summary:before {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABbmlDQ1BpY2MAACiRdZG9S0JRGMZ/alGU4VBERYODRYOBFERjGORiDWqQ1aLXr8CPy71KSGvQ0iA0RC19Df0HtQatBUFQBBEt/QN9LSG396SghJ7Lue+P55zn5ZzngD2Y1XJmhw9y+aIRCvjdK9FVd9cbDuwMMowvppn6YnghQtvx/YBN1ftJ1av9vpajN5E0NbB1C89oulEUnhMObhZ1xbvCA1omlhA+FvYackDhG6XHa/yqOF3jT8VGJDQPdtXTnW7ieBNrGSMnPCHsyWVLWv086ibOZH45LHVE5igmIQL4cROnxAZZikxKzUtmrX2+P98SBfFo8tcpY4gjTUa8XlFL0jUpNSV6Ur4sZZX7/zzN1PRUrbvTD50vlvUxBl17UK1Y1s+JZVVPwfEMV/mGvyA5zX6JXmloniNwbcPFdUOL78PlDgw96TEj9ic5ZNpTKXg/h74o9N9Bz1otq/o6Z48Q2ZInuoWDQxiX/a71X/8baAomcxtOAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAAbUlEQVRYR2N0CUz8zzCAgGkA7QZbPeqA0RBgITcR7l43D0Wra1ASWUaNRsFoCIyGwICHACOu2hA9n5OVyZE04SonBjwERh2AMw0QivPRuoBQCBErP5oIR0NgwEOA7HKA2FROSN2Ah8CoA0ZDAACrTBET62o8XgAAAABJRU5ErkJggg==);
+    font-family: "Font Awesome 5 free";
+    margin-right: 9px;
+    
+  }
+  /* Добавляем собственный маркер для открытого состояния */
+  details[open] summary:before {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABbmlDQ1BpY2MAACiRdZG9S0JRGMZ/alGU4VBERYODRYOBFERjGORiDWqQ1aLXr8CPy71KSGvQ0iA0RC19Df0HtQatBUFQBBEt/QN9LSG396SghJ7Lue+P55zn5ZzngD2Y1XJmhw9y+aIRCvjdK9FVd9cbDuwMMowvppn6YnghQtvx/YBN1ftJ1av9vpajN5E0NbB1C89oulEUnhMObhZ1xbvCA1omlhA+FvYackDhG6XHa/yqOF3jT8VGJDQPdtXTnW7ieBNrGSMnPCHsyWVLWv086ibOZH45LHVE5igmIQL4cROnxAZZikxKzUtmrX2+P98SBfFo8tcpY4gjTUa8XlFL0jUpNSV6Ur4sZZX7/zzN1PRUrbvTD50vlvUxBl17UK1Y1s+JZVVPwfEMV/mGvyA5zX6JXmloniNwbcPFdUOL78PlDgw96TEj9ic5ZNpTKXg/h74o9N9Bz1otq/o6Z48Q2ZInuoWDQxiX/a71X/8baAomcxtOAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAAnUlEQVRYR+2WYQqAIAxGnXS0OkDdoA7WEbpAV5MtEIyCBNm38M8Ef+m2t8cQaZxXCR1X7Fg7l3YAN2BiQITVs2wCQKRPo49U9/wOdAA30N3AUBvm89jvI2YORJS3dk3L9hlaBXjejvE/Uf9lblRVBUgpNabArpH/iDCBeLTJEIro/7UmAIgHCKB0jjxQEABSuFiDABD1DuAG3EAxcAFH+xYnfZHqOwAAAABJRU5ErkJggg==);
+  }
+
+
+.page-content-section-screenshots {
+    padding: 50px;
+}
+.page-content-section-screenshots-title {
+    margin: 0 0 35px 0;
+    text-align: center;
+}
+.page-content-section-screenshots-figure-right-left{
+    display: flex;
+    justify-content: center;
+}
+.page-content-section-screenshots-figure {
+    display: flex;
+    margin: 0 0 30px 0;
+}
+figure.right figcaption {
+    float: right; /* Добавляем текст справа */
+    padding: 5px; /* Поля вокруг текста */
+   }
+.page-content-section-screenshots-figure-p-img {
+    margin: 0 15px 0 0;
+}
+.page-content-section-screenshots-figure-img {
+    width: 200px;
+    background-color: #445161;
+    display: block;
+}
+.page-content-section-screenshots-figure-title {
+    margin: 0 0 15px 0;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
