@@ -3,6 +3,7 @@
     margin: 0 auto;
     border: 3px solid black;
     box-sizing: border-box;
+    font-family: Arial;
 }
 .text {
     color: #333333;
@@ -53,11 +54,15 @@
     box-sizing: border-box;
 }
 .page-header-list-item {
-    padding: 0 0 10px 20px;
+    padding: 0 0 0 20px;
+    margin: 0 0 10px 0;
     box-sizing: border-box;
     list-style-type: none;
     position: relative;
 }
+.page-header-list-item:last-child {
+    margin: 0;
+    }
 .page-header-list-item:before {
     content: "";
     display: block;
@@ -90,12 +95,13 @@
 .page-content-article-about_your_product-title {
     margin: 0 0 20px 0;
 }
-/* .page-content-article-about_your_product-section {
-} */
 .page-content-article-about_your_product-section-text {
     width: 650px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
 }
+.page-content-article-about_your_product-section-text:last-child {
+    margin: 0;
+    }
 .page-content-article-img {
     background-color: #445161;
     display: block;
@@ -144,7 +150,7 @@ details summary::-webkit-details-marker {
 
 
 .page-content-section-screenshots {
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
     box-sizing: border-box
 }
 .page-content-section-screenshots-title {
