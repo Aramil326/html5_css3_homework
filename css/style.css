@@ -50,9 +50,11 @@
 .page-header-list {
     margin: 0;
     padding: 0;
+    box-sizing: border-box
 }
 .page-header-list-item {
     padding: 0 0 10px 20px;
+    box-sizing: border-box
     list-style-type: none;
     position: relative;
 }
@@ -82,6 +84,7 @@
     padding: 50px;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box
 }
 
 .page-content-article-about_your_product-title {
@@ -102,6 +105,7 @@
 
 .page-content-section-dignity_and_pluses {
     padding: 50px;
+    box-sizing: border-box
 }
 .page-content-section-dignity_and_pluses-title {
     text-align: center;
@@ -141,6 +145,7 @@ details summary::-webkit-details-marker {
 
 .page-content-section-screenshots {
     padding: 50px;
+    box-sizing: border-box
 }
 .page-content-section-screenshots-title {
     margin: 0 0 35px 0;
@@ -157,6 +162,7 @@ details summary::-webkit-details-marker {
 figure.right figcaption {
     float: right; /* Добавляем текст справа */
     padding: 5px; /* Поля вокруг текста */
+    box-sizing: border-box
    }
 .page-content-section-screenshots-figure-p-img {
     margin: 0 15px 0 0;
